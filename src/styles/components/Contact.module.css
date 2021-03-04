@@ -1,0 +1,129 @@
+.contactContainer {
+   position: relative;
+
+   width: 26rem;
+   height: 13rem;
+
+   background: rgba(87, 87, 87, 0.5);
+   border-top: 1.5px solid rgba(255, 255, 255, 0.5);
+   border-left: 1.5px solid rgba(255, 255, 255, 0.5);
+   border-radius: 15px;
+
+   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+   backdrop-filter: blur(5px);
+
+   padding: 2.5rem 1rem 2.5rem 2rem;
+
+   display: flex;
+
+   font-size: small;
+
+   overflow: hidden;
+}
+
+.contactContainer img {
+   width: 70%;
+   height: 70%;
+   border-radius: 50%;
+   border:8px solid rgba(0, 0, 0, 0.2);
+
+   margin-right: 2rem;
+}
+
+.contactInfo {
+   width: 14rem;
+   align-items: center;
+   justify-content: center;
+   text-align: right;
+}
+
+.contactBio {
+   color: rgba(255, 255, 255, 0.7);
+   margin-right: 1rem;
+}
+
+.contactBio h2 {
+   font-size: 1.5rem;
+   font-weight: 400;
+}
+
+.contactBio h3 {
+   font-weight: 300;
+}
+
+.contactBio h4 {
+   font-weight: 200;  
+}
+
+.contactInfo ul {
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   text-decoration: none;
+
+   margin-top: 5rem;
+}
+
+.contactInfo ul li {
+   width: 3rem;
+   height: 2rem;
+   border: 1px solid rgba(255, 255, 255, 0.7);
+   border-radius: 20%;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   padding: 0.5rem;
+
+   margin: 5px;
+}
+
+.contactInfo ul li:hover {
+   border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.contactInfo ul li a {
+   padding: 0;
+   margin: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgba(255, 255, 255, 0.7);
+}
+
+.contactInfo ul li a:hover {
+   color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+
+@media (max-width: 480px) {
+   .contactContainer {
+      width: 20rem;
+      height: 11rem;
+      padding: 1.5rem;
+
+      font-size: 0.8rem;
+   }
+
+   .contactBio h2 {
+      font-size: 1rem;
+      font-weight: 400;
+   }
+
+   .contactInfo {
+      width: 10rem;
+   }
+
+   .contactInfo ul {
+   margin-top: 2rem;
+   }
+
+   .contactInfo ul li {
+      height: 1rem;
+   }
+}

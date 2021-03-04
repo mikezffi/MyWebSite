@@ -1,0 +1,38 @@
+.bioInfoContainer {
+   position: relative;
+   cursor: default;
+
+   min-width: 22rem;
+   width: 40vw;
+   height: 900px;
+
+   background-color: #fff;
+   border-radius: 2px;
+   opacity: 0.856;
+
+   padding: 4rem 3rem;
+   text-align: center;
+
+   margin-top: 7%;
+
+   color: rgb(85, 85, 85);
+}
+
+.bioInfoContainer p {
+   margin-bottom: 0.5rem;
+}
+
+.bioInfoContainer h2 {
+   border-bottom: 2px solid grey;
+   margin-bottom: 2rem;
+   padding: 1rem;
+}
+
+.bioInfoContainer ul {
+   text-align: left;
+   padding: 2rem;
+}
+
+.bioInfoContainer ul li {
+   padding: 0.7rem;
+}
