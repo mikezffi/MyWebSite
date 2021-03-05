@@ -3,6 +3,10 @@
    padding: 0;
 }
 
+html {
+   height: 100vh;
+}
+
 body {
    font-family: 'Poppins', sans-serif;
 
@@ -11,10 +15,12 @@ body {
    background-attachment: fixed;
 
    overflow: hidden;
+
+   height: 100vh;
 }
 
 .container {
-   height: 100vh;
+   height: 100vh;   
    
    overflow-y: scroll;
    scroll-behavior: smooth;

@@ -50,7 +50,7 @@ export function Contact() {
             <div className={styles.contactBio}>
                <h2>Michael Zuffi</h2>
 
-               <h4>System developer</h4>
+               <h4>Front-end Developer</h4>
                <h3>São Paulo</h3>
             </div>
 

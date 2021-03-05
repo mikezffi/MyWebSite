@@ -2,9 +2,9 @@
    position: relative;
    cursor: default;
 
-   min-width: 22rem;
-   width: 40vw;
-   height: 900px;
+   min-width: 250px;
+   width: 55vw;
+   height: 100vh;
 
    background-color: #fff;
    border-radius: 2px;
@@ -16,6 +16,8 @@
    margin-top: 7%;
 
    color: rgb(85, 85, 85);
+
+   font-size: 1rem;
 }
 
 .bioInfoContainer p {
@@ -35,4 +37,36 @@
 
 .bioInfoContainer ul li {
    padding: 0.7rem;
+}
+
+@media (max-width: 760px) {
+   .bioInfoContainer {
+      padding: 2rem 1.5rem;
+     font-size: 0.8rem;
+   }
+   .bioInfoContainer h2 {
+      margin-bottom: 1rem;
+   }
+   .bioInfoContainer ul {
+      padding: 1rem;
+   }
+   .bioInfoContainer ul li {
+      padding: 0.35rem;
+   }
+}
+
+@media (max-width: 400px) {
+   .bioInfoContainer {
+      padding: 1.5rem 1rem;
+      font-size: 0.7rem;
+   }
+   .bioInfoContainer h2 {
+      margin-bottom: 0.7rem;
+   }
+   .bioInfoContainer ul {
+      padding: 0.6rem;
+   }
+   .bioInfoContainer ul li {
+      padding: 0.2rem;
+   }
 }
